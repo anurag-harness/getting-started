@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_getting_started_1709223187431-pr-trigger-input-set
+  identifier: Build_getting_started_1709223187431prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: anuragworkspace
+  pipeline:
+    identifier: Build_getting_started_1709223187431
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>

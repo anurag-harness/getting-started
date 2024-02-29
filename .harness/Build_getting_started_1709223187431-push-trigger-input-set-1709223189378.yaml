@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_getting_started_1709223187431-push-trigger-input-set
+  identifier: Build_getting_started_1709223187431pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: anuragworkspace
+  pipeline:
+    identifier: Build_getting_started_1709223187431
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

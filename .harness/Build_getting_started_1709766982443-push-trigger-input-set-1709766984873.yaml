@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_getting_started_1709766982443-push-trigger-input-set
+  identifier: Build_getting_started_1709766982443pushtriggerinputset
+  orgIdentifier: default1
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_getting_started_1709766982443
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
